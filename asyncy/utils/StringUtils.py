@@ -2,7 +2,9 @@
 
 
 class StringUtils:
-
+    @staticmethod
+    def contains(string,pattern):
+        pass
     @staticmethod
     def truncate(result, max_bytes: int):
         str_bytes = str(result).encode('utf-8', 'ignore')
